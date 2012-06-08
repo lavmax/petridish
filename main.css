@@ -1,0 +1,83 @@
+/*******************************
+ * GENERAL STYLES
+ *******************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: Lucida Grande, Verdana, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+tbody {
+	vertical-align: middle;
+}
+
+tr, td, th {
+	vertical-align: inherit;
+}
+
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+
+input, textarea, select {
+	border: 1px solid #999;
+	padding: 4px;
+}
+
+input[type=text][disabled], input[type=password][disabled], textarea[disabled], select[disabled] {
+	background-color: #f1f1f1;
+	cursor: default;
+}
+
+input[type=button], input[type=submit], button {
+	cursor: pointer;
+	/* border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; */
+	outline: none;
+}
+
+select {
+	-webkit-appearance: none; -moz-appearance: none;
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	padding: 4px;
+}
+
+label {
+	border: 1px solid transparent; /* To easy positions labels near inputs */
+}
+
+a, .link {
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+a:hover, .link:hover,
+a:active, .link:active {
+	text-decoration: underline;
+}
+
+img {
+	border: none; /* Mozilla Firefox */
+}
+
+.hidden {
+	display: none !important;
+}
+
+li {
+    list-style-type: none;
+}
