@@ -8,3 +8,6 @@ Small emulation of growing, dividing and mutating of a primitive bacterium in th
 
 ##Demo
 http://lavmax.github.com/petridish/
+
+##License
+[MIT]http://en.wikipedia.org/wiki/MIT_License#License_terms
