@@ -2,12 +2,12 @@
 
 Small emulation of growing, dividing and mutating of a primitive bacterium in the Petri dish.
 
-##How to run
+###How to run
 1. In browser just open `index.html`. We use Chrome, working in other browsers is not tested.
 2. In Mac/Linux terminal use `node nodeapp.js` (Node.js required).
 
-##Demo
+###Demo
 http://lavmax.github.com/petridish/
 
-##License
-[MIT]http://en.wikipedia.org/wiki/MIT_License#License_terms
+###License
+[MIT](http://en.wikipedia.org/wiki/MIT_License#License_terms)
